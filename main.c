@@ -48,7 +48,6 @@ int main(int argc, char *const *argv)
 			j = temp ? atoi(temp) : (i+9);
 			temp = strtok(NULL, "-");
 			k = temp ? atoi(temp) : 1;
-			printf("%d %d %d\n", i, j, k);
 
 			for(; i <= j; i+=k)
 			{
