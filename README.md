@@ -1,5 +1,13 @@
 # ipviewer
 
+## Compilation
+
+```bash
+gcc -o ipview ip.c main.c
+```
+
+
+
 ## Examples
 
 ### Inspect ip address
