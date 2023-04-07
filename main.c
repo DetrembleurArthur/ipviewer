@@ -1,6 +1,12 @@
 #include "ip.h"
 #include <getopt.h>
-
+/*
+-i <adresse ip>
+-m masque (nombre entier)
+-s voir les sous réseaux numéro x (1,3,5) => voir les sous réseaux n°1, 3 et 5
+-S pareil mais avec '-' pour voir les plages de sous réseaux
+-h et -H pareil que -s et -S mais pour les hôtes
+*/
 
 int main(int argc, char *const *argv)
 {
